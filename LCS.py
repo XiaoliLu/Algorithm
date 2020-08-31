@@ -28,7 +28,7 @@ def print_LCS(s,flag,m,n):
     print_LCS(s,flag,m,n-1)
     
     
- if __name__ == '__main__':
+if __name__ == '__main__':
   s1 = 'abcdba'
   s2 = 'bdcaba'
   c,flag,len_LCS = LCS(s1,s2)
